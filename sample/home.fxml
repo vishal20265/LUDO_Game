@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="407.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+   <children>
+      <ImageView fitHeight="424.0" fitWidth="566.0" layoutX="-11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hpfvhcqecblfovjy_1595474852.jpeg" />
+         </image>
+      </ImageView>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="211.0" layoutY="358.0" mnemonicParsing="false" onMouseClicked="#play" prefHeight="38.0" prefWidth="91.0" text="PLAY" textAlignment="CENTER">
+         <font>
+            <Font name="Georgia Pro Cond Black" size="19.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.4823788294183" centerY="0.5" cycleMethod="REFLECT" focusDistance="0.20183484488670977" radius="0.29816511136676194">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5823724269866943" green="0.6200000047683716" blue="0.07440000027418137" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.17479999363422394" green="0.2756965458393097" blue="0.7599999904632568" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <effect>
+            <InnerShadow choke="0.55" height="28.02" radius="26.377499999999998" width="79.49">
+               <color>
+                  <Color red="0.05249999836087227" green="0.737974226474762" blue="0.75" />
+               </color>
+            </InnerShadow>
+         </effect></Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="358.0" layoutY="358.0" mnemonicParsing="false" onMouseClicked="#exit" prefHeight="38.0" prefWidth="91.0" text="EXIT" textAlignment="CENTER">
+         <font>
+            <Font name="Georgia Pro Black" size="19.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.4823788294183" centerY="0.5" cycleMethod="REFLECT" focusDistance="0.20183484488670977" radius="0.29816511136676194">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5823724269866943" green="0.6200000047683716" blue="0.07440000027418137" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.17479999363422394" green="0.2756965458393097" blue="0.7599999904632568" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <effect>
+            <InnerShadow choke="0.4" height="39.72" radius="26.96" width="70.12">
+               <color>
+                  <Color red="0.44987064599990845" green="0.10649999976158142" blue="0.7099999785423279" />
+               </color>
+            </InnerShadow>
+         </effect></Button>
+   </children>
+</AnchorPane>
